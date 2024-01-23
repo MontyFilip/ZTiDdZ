@@ -19,4 +19,7 @@ def main():
     print('Decrypted Text:', decrypted_text)
 
 if __name__ == "__main__":
-    main()
+  try:
+      main()
+  except KeyboardInterrupt:
+      print("\n\nEncryption interrupted by user.")
